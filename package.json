@@ -1,0 +1,16 @@
+{
+	"name": "window-require",
+	"version": "1.0.0",
+	"description": "Export require as `window.windowRequire`",
+	"main": "window-require.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://archive.voodoowarez.com/window-require"
+	},
+	"keywords": [],
+	"author": "rektide de la faye",
+	"license": "X11"
+}
