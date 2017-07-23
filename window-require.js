@@ -1,5 +1,7 @@
 if( typeof window!== "undefined"){
-	window.windowRequire= function( module){
-		return require( module)
+	if( typeof __webpack_require__!== "undefined"){
+		window.windowRequire= __webpack_require__
+	}else{
+		window.windowRequire= require
 	}
 }
